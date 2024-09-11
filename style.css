@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(173, 162, 162, 0.26);
+}
+.container{
+    display: flex;
+    align-content: center;
+    
+    margin: 5rem;
+}
+.container-1{
+    width: 70%;
+}
+.facebook{
+    color: blue;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+p{
+    font-size: 24px;
+    
+}
+.details{
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    box-shadow: 0 2px 4px;
+    
+    
+}
+input{
+    width: 80%;
+    padding: 10px 15px;
+    margin-bottom: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 1rem;
+}
+.input{
+    padding: 10px 15px;
+    margin-top: 2px;
+
+}
+.btn{
+    width: 90%;
+    padding: 14px ;
+    margin-left: 0.7rem;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 2px;
+}
+.password{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blue;
+}
+.btn-1{
+    padding: 10px;
+    margin: 2rem;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    background-color: green;
+    
+}
+@media screen and ( max-width:480px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        
+    }
+    .container-1{
+        width: 70%;
+        
+    }
+    .facebook{
+        font-size: 30px;
+        
+    }
+    p{
+        font-size: 16px;
+        width: 900%;
+        font-weight: bold;
+    }
+    .details{
+        width: 100%;
+        
+    }
+    input{
+        width: 70.4%;
+    }
+    .btn{
+        width: 85%;
+    }
+} 
