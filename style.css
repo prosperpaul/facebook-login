@@ -157,7 +157,7 @@ hr{
     }
     .container-1{
         
-        
+        width: 100%;
     }
     .facebook{
         font-size: 30px;
@@ -169,18 +169,19 @@ hr{
     p{
         font-size: 12px;
         text-align: center;
-        margin-left: 4rem;
+        
         
     }
     .details{
-        width: 150%;
+
+        width: 100%;
         
     }
     input{
-        width: 80%;
+        width: 70%;
     }
     .btn{
-        width: 90%;
+        width: 80.9%;
        background-color: red;
     }
     .btn-1{
