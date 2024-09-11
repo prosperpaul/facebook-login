@@ -37,7 +37,7 @@ p{
 .details{
     background-color: white;
     border-radius: 8px;
-    margin-left: 2rem;
+    margin-right: 2rem;
     margin-top: 1rem;
     box-shadow: 0 2px 4px;
     
@@ -98,24 +98,31 @@ hr{
         height: 90%;
         margin-left: 2rem;
     }
-    .container-1{
-        
-        font-size: 24px;
+    .facebook{
+        text-align: center;
+        font-size: 32px;
+        margin-left: 7rem;
     }
     p{
         
-        font-size: 18px;
+        font-size: 20px;
         text-align: center;
-        font-weight: bold;
+        
+        width: 150%;
+        text-align: center;
     }
-    .btn-2{
-        width: 50%;
+    .password{
+        text-align: center;
+        width: 100%;
+    }
+    .btn-1{
+        padding: 10px;
 
         
     }
     .details{
-        width: 70%;
-        margin-right: 2rem;
+        width: 800;
+        margin-left: 5rem;
     }
     input{
         width: 70.8%;
@@ -123,6 +130,9 @@ hr{
         
     }
     p{
+        text-align: center;
+    }
+    .password{
         text-align: center;
     }
 
@@ -146,29 +156,34 @@ hr{
         
     }
     .container-1{
-        width: 70%;
+        
         
     }
     .facebook{
         font-size: 30px;
+        text-align: center;
+        margin-right: 1rem;
+        
         
     }
     p{
         font-size: 12px;
+        text-align: center;
+        margin-left: 4rem;
         
-        font-weight: bold;
     }
     .details{
-        width: 100%;
+        width: 150%;
         
     }
     input{
-        width: 70.4%;
+        width: 80%;
     }
     .btn{
-        width: 85%;
+        width: 90%;
+       background-color: red;
     }
-    .btn-2{
-        margin-left: 2rem;
+    .btn-1{
+        padding: 10px;
     }
 } 
