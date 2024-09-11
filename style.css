@@ -3,13 +3,24 @@
     padding: 0;
 }
 body{
-    background-color: rgba(173, 162, 162, 0.26);
+    /* background-color: rgba(173, 162, 162, 0.26); */
+        background-color: #f2f4f7;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
 }
 .container{
     display: flex;
-    align-content: center;
+    gap: 50px;
+  width: 90%;
+  flex-direction: row;
     
-    margin: 5rem;
+    
+    
 }
 .container-1{
     width: 70%;
@@ -31,14 +42,16 @@ p{
     box-shadow: 0 2px 4px;
     
     
+    
 }
 input{
     width: 80%;
     padding: 10px 15px;
     margin-bottom: 1rem;
-    margin-left: 10px;
+    margin-left: 1.5rem;
     margin-right: 10px;
     margin-top: 1rem;
+    
 }
 .input{
     padding: 10px 15px;
@@ -48,11 +61,16 @@ input{
 .btn{
     width: 90%;
     padding: 14px ;
-    margin-left: 0.7rem;
+    margin-left: 1.5rem;
     color: white;
     background-color: blue;
     border: none;
     border-radius: 2px;
+    
+}
+hr{
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .password{
     font-size: 14px;
@@ -62,13 +80,61 @@ input{
     color: blue;
 }
 .btn-1{
-    padding: 10px;
-    margin: 2rem;
+    
+    padding: 10px 15px;
+    margin-left: 7rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     color: white;
     border: none;
     border-radius: 2px;
     background-color: green;
     
+}
+@media screen and (max-width:768px) {
+    .container{
+        flex-direction: column;
+        width: 70%;
+        height: 90%;
+        margin-left: 2rem;
+    }
+    .container-1{
+        
+        font-size: 24px;
+    }
+    p{
+        
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .btn-2{
+        width: 50%;
+
+        
+    }
+    .details{
+        width: 70%;
+        margin-right: 2rem;
+    }
+    input{
+        width: 70.8%;
+        margin-right: 2rem;
+        
+    }
+    p{
+        text-align: center;
+    }
+
+    .btn{
+        width: 80.9%;
+    }
+    .btn-1{
+         width: 50% ;
+         margin-left: 5rem;
+         
+    }
+
 }
 @media screen and ( max-width:480px) {
     .container{
@@ -76,6 +142,7 @@ input{
         align-items: center;
         justify-content: center;
         width: 60%;
+        margin-right: 5rem;
         
     }
     .container-1{
@@ -88,7 +155,7 @@ input{
     }
     p{
         font-size: 12px;
-        width: 850%;
+        
         font-weight: bold;
     }
     .details{
@@ -100,5 +167,8 @@ input{
     }
     .btn{
         width: 85%;
+    }
+    .btn-2{
+        margin-left: 2rem;
     }
 } 
